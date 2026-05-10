@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Invitación Disco Night" },
+      { name: "description", content: "Invitación" },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Invitación Disco Night" },
+      { property: "og:description", content: "Invitación" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Invitación Disco Night" },
+      { name: "twitter:description", content: "Invitación" },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/VXDDUHdzohQzn5VOzRRsEfgX2hA2/social-images/social-1778374421771-favicon.ico.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/VXDDUHdzohQzn5VOzRRsEfgX2hA2/social-images/social-1778374421771-favicon.ico.webp" },
     ],
     links: [
       {
