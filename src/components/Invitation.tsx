@@ -66,8 +66,8 @@ export function Invitation() {
           transition={{ duration: 0.8 }}
           className="text-center"
         >
-          <p className="font-retro text-sm uppercase tracking-[0.4em] text-[var(--disco-cyan)] md:text-base neon-text-pink">
-            ✨ Te invito a celebrar ✨
+          <p className="font-retro text-lg uppercase tracking-[0.3em] text-[var(--disco-cyan)] md:text-2xl neon-text-pink">
+            ✨ Te invito a celebrar el cumpleaños de ✨
           </p>
           <h1 className="mt-6 font-display text-6xl leading-[0.95] neon-text-pink md:text-9xl">
             Alma Delia
@@ -143,10 +143,10 @@ export function Invitation() {
             <MapPin className="h-5 w-5" />
             Ver ubicación
           </a>
-          <p className="flex items-center gap-2 text-center font-retro text-base text-[var(--disco-gold)] neon-text-gold md:text-xl">
-            <Sparkle className="h-5 w-5" />
+          <p className="flex items-center gap-2 text-center font-retro text-xl text-[var(--disco-gold)] neon-text-gold md:text-3xl">
+            <Sparkle className="h-6 w-6 md:h-7 md:w-7" />
             ¡Prepara tu mejor outfit setentero!
-            <Sparkle className="h-5 w-5" />
+            <Sparkle className="h-6 w-6 md:h-7 md:w-7" />
           </p>
         </motion.div>
       </div>
