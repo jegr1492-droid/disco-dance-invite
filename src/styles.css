@@ -1,7 +1,7 @@
 @import "tailwindcss" source(none);
 @source "../src";
 @import "tw-animate-css";
-@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Bungee&family=Monoton&family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Monoton&family=Righteous&family=Poppins:wght@400;500;600;700&display=swap");
 
 @custom-variant dark (&:is(.dark *));
 
@@ -28,7 +28,7 @@
   --color-disco-cyan: var(--disco-cyan);
   --font-display: "Bungee Shade", cursive;
   --font-neon: "Monoton", cursive;
-  --font-retro: "Bungee", cursive;
+  --font-retro: "Righteous", "Poppins", sans-serif;
   --font-body: "Poppins", sans-serif;
 }
 
