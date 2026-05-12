@@ -37,10 +37,10 @@ function InfoCard({
       style={{ boxShadow: "0 0 28px rgba(255, 0, 170, 0.4), inset 0 0 12px rgba(255,255,255,0.05)" }}
     >
       <div className="flex items-center gap-2 text-[var(--disco-gold)]">
-        <Icon className="h-5 w-5" />
-        <span className="font-retro text-sm uppercase tracking-wider neon-text-gold">{label}</span>
+        <Icon className="h-6 w-6 md:h-5 md:w-5" />
+        <span className="font-retro text-lg uppercase tracking-wider neon-text-gold md:text-sm">{label}</span>
       </div>
-      <p className="mt-2 font-retro text-2xl text-white md:text-3xl neon-text-pink">{value}</p>
+      <p className="mt-2 font-retro text-3xl text-white md:text-3xl neon-text-pink">{value}</p>
     </motion.div>
   );
 }
@@ -66,20 +66,17 @@ export function Invitation() {
           transition={{ duration: 0.8 }}
           className="text-center"
         >
-          <p className="font-retro text-lg uppercase tracking-[0.3em] text-[var(--disco-cyan)] md:text-2xl neon-text-pink">
+          <p className="font-retro text-xl uppercase tracking-[0.3em] text-[var(--disco-cyan)] md:text-2xl neon-text-pink">
             ✨ Te invito a celebrar el cumpleaños de ✨
           </p>
-          <h1 className="mt-6 font-display text-6xl leading-[0.95] neon-text-pink md:text-9xl">
-            Alma Delia
-          </h1>
-          <h1 className="mt-3 font-display text-5xl leading-[0.95] neon-text-gold md:text-8xl">
-            Garrido Del Valle
+          <h1 className="mt-6 font-display text-8xl leading-[0.95] neon-text-pink md:text-9xl">
+            Almita
           </h1>
           <div
             className="mx-auto mt-6 h-[4px] w-64 rounded-full"
             style={{ background: "var(--gradient-neon)", boxShadow: "0 0 18px var(--disco-fuchsia)" }}
           />
-          <p className="mt-5 font-neon text-xl text-white md:text-3xl neon-text-pink">DISCO NIGHT · 70's PARTY</p>
+          <p className="mt-5 font-neon text-2xl text-white md:text-3xl neon-text-pink">DISCO NIGHT · 70's PARTY</p>
         </motion.div>
 
         {/* Dancers + floating data */}
@@ -143,10 +140,10 @@ export function Invitation() {
             <MapPin className="h-5 w-5" />
             Ver ubicación
           </a>
-          <p className="flex items-center gap-2 text-center font-retro text-xl text-[var(--disco-gold)] neon-text-gold md:text-3xl">
-            <Sparkle className="h-6 w-6 md:h-7 md:w-7" />
+          <p className="flex items-center gap-2 text-center font-retro text-2xl text-[var(--disco-gold)] neon-text-gold md:text-3xl">
+            <Sparkle className="h-7 w-7 md:h-7 md:w-7" />
             ¡Prepara tu mejor outfit setentero!
-            <Sparkle className="h-6 w-6 md:h-7 md:w-7" />
+            <Sparkle className="h-7 w-7 md:h-7 md:w-7" />
           </p>
         </motion.div>
       </div>
